@@ -1,14 +1,16 @@
-# Currency 
+# Currency exchange 
 
-> The expert of exchange rate knowledge 
+> The **expert** of exchange rate knowledge 
+
+![bitcoin-coin](https://unsplash.com/photos/Q4W8GjjKjuw)
 
 ## Context 
 
-Doing an online search to check the value of a currency can be tedious. 
+Doing an online search to check the **value of a currency** can be tedious. 
 
 This program is here to help you ! 
 
-Change any well-known currency to another with one click. 
+**Change any well-known currency to another with one click.** 
 
 
 ## Show me an example ! 
@@ -19,7 +21,7 @@ Change any well-known currency to another with one click.
 
 
 
-## Which currency can this program recognized ? 
+## Which currencies can this program recognized ? 
 
 - "CAD" : Canadian Dollar
 - "HKD": Hong Kong Dollar
