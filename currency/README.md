@@ -17,8 +17,10 @@ This program is here to help you !
 
 To use this program, you can simple launch a shell and write : 
 > node cli.js (any number) (in any currency) (into another currency) 
+
 For example, you can write : 
 > node cli.js 10 eur usd 
+
 You will see the value directly displayed in the shell ! 
 
 ## How can I use it ? 
