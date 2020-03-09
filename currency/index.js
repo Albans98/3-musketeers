@@ -5,8 +5,22 @@ const RATES_URL = 'https://api.exchangeratesapi.io/latest';
 const BLOCKCHAIN_URL = 'https://blockchain.info/ticker';
 const CURRENCY_BITCOIN = 'BTC';
 
+/**
+* Set default currency for the conversion (Bitcoin)
+* @param {String} from - Starting currency
+* @param {String} to - Final currency
+* @return {Boolean} - Converting to Bitcoin (True) or not (False)
+*/
 const isAnyBTC = (from, to) => [from, to].includes(CURRENCY_BITCOIN);
 
+/**
+* Get exchange rate informations about currencies
+* @param {Object} opts - Informations written by user
+* @param {Float} amount - Value to convert from a currency to another
+* @param {String} from - Starting currency
+* @param {String} to - Final currency
+* @return {Float} - Money conversion
+*/
 module.exports = async opts => {
   const {amount = 1, from = 'USD', to = CURRENCY_BITCOIN} = opts;
   const promises = [];
@@ -14,6 +28,10 @@ module.exports = async opts => {
 
   const anyBTC = isAnyBTC(from, to);
 
+  /**
+  * Get bitcoin exchange rate value
+  * @requires {axios}
+  */
   if (anyBTC) {
     base = from === CURRENCY_BITCOIN ? to : from;
     promises.push(axios(BLOCKCHAIN_URL));
@@ -25,6 +43,10 @@ module.exports = async opts => {
     const responses = await Promise.all(promises);
     const [rates] = responses;
 
+    /**
+    * Get exchange rate values for required currencies
+    * @requires {money}
+    */
     money.base = rates.data.base;
     money.rates = rates.data.rates;
 
