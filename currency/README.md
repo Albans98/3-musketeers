@@ -2,7 +2,7 @@
 
 > The **expert** of exchange rate knowledge 
 
-![bitcoin-coin](https://unsplash.com/photos/Q4W8GjjKjuw)
+![bitcoin-coin](https://images.unsplash.com/photo-1518544801976-3e159e50e5bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80)
 
 ## Context 
 
