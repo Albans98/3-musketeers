@@ -15,13 +15,23 @@ This program is here to help you !
 
 ## Show me an example ! 
 
-
+To use this program, you can simple launch a shell and write : 
+	node cli.js (any number) (in any currency) (into another currency) 
+For example, you can write : 
+	node cli.js 10 eur usd 
+You will see the value directly displayed in the shell ! 
 
 ## How can I use it ? 
 
+In order to use this program, you need to install [Node.js](https://nodejs.org/en/download/). 
+
+Then, install all libraries with : 
+	npm install 
+
+You can now start ! 
 
 
-## Which currencies can this program recognized ? 
+## Which currencies can this program recognize ? 
 
 - "CAD" : Canadian Dollar
 - "HKD": Hong Kong Dollar
