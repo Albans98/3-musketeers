@@ -21,7 +21,6 @@ Change any well-known currency to another with one click.
 
 ## Which currency can this program recognized ? 
 
-```sh
 - "CAD" : Canadian Dollar
 - "HKD": Hong Kong Dollar
 - "ISK": Iceland Krona
@@ -54,4 +53,3 @@ Change any well-known currency to another with one click.
 - "GBP": Pound Sterling
 - "KRW": South Korean Won
 - "MYR": Malaysian Ringgit
-```
